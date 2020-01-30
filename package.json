@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch-qr": "webpack --watch --config qr.config.js"
+    "watch-qr": "webpack --watch --config=qr.config.js --mode=development"
   },
   "author": "",
   "license": "ISC",
@@ -17,5 +17,11 @@
     "npm": "^6.13.7",
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-json-syntax-highlighter": "^0.1.17",
+    "react-qr-svg": "^2.2.1"
   }
 }
